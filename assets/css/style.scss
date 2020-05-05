@@ -1,0 +1,24 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header {
+    background-image: url("../images/pedro-lastra-5Bv3EcijAl4-unsplash.jpg");
+    background-size: cover
+};
+
+.row {
+    display: flex;
+};
+
+.column {
+    flex: 50%;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.project-tagline {
+    opacity: 1;
+}
