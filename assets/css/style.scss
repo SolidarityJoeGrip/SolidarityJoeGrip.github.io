@@ -4,7 +4,9 @@
 @import "{{ site.theme }}";
 
 .page-header {
-    background: url("../Chicago_Flag_Cropped.png") no-repeat center/cover;
+    background-image: url("../Chicago_Flag_Cropped.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
     color: black;
 };
 
