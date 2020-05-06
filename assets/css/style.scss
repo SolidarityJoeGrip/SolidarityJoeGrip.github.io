@@ -4,7 +4,8 @@
 @import "{{ site.theme }}";
 
 .page-header {
-    background: url("../Flag_of_Chicago,_Illinois.svg") no-repeat center/cover;
+    background: url("../Flag_of_Chicago,_Illinois.svg");
+    background-size: contain;
     color: black;
 };
 
